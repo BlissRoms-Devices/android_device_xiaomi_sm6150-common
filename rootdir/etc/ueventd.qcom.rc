@@ -363,6 +363,15 @@ firmware_directories /vendor/firmware_mnt/image/
 /dev/qbt*                 0660   system     system
 /sys/class/fts/touch_aoi aoi_set 0660 root system
 /sys/class/fts/touch_aoi power_set 0660 root system
+/sys/devices/soc/soc:fingerprint_fpc*        irq                0700  system system
+/sys/devices/soc/soc:fingerprint_fpc*        irq_enable         0700  system system
+/sys/devices/soc/soc:fingerprint_fpc*        wakeup_enable      0700  system system
+/sys/devices/soc/soc:fingerprint_fpc*        hw_reset           0700  system system
+/sys/devices/soc/soc:fingerprint_fpc*        device_prepare     0700  system system
+/sys/devices/soc/soc:fingerprint_fpc*        vendor             0700  system system
+/sys/devices/soc/soc:fingerprint_fpc*        fingerdown_wait    0700  system system
+/dev/goodix_fp            0660   system     system
+
 
 # ImproveTouch device
 /dev/hbtp_input           0660   system     system
