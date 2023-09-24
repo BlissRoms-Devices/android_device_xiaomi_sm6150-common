@@ -276,10 +276,6 @@ service vendor.cnss-daemon /vendor/bin/cnss-daemon -n -l
     capabilities NET_ADMIN
     task_profiles ServiceCapacityLow
 
-on property:sys.shutdown.requested=*
-    write /sys/kernel/shutdown_wlan/shutdown 1
-    stop cnss-daemon
-
 service vendor.loc_launcher /vendor/bin/loc_launcher
     class late_start
     user gps
