@@ -2,6 +2,10 @@
 vendor.bluetooth.soc=cherokee
 
 # Display
+debug.egl.hw=1
+debug.sf.hw=1
+dev.pm.dyn_samplingrate=1
+persist.hwc.enable_vds=1
 debug.force_no_blanking=true
 
 # Netflix custom property
@@ -33,7 +37,7 @@ persist.vendor.cp.taper_term_mv=6500
 #set vfloat_offset_uv
 persist.vendor.cp.qc3p5_vfloat_offset_uv=110000
 
-#hwui properties
+# HWUI properties
 ro.hwui.texture_cache_size=72
 ro.hwui.layer_cache_size=48
 ro.hwui.r_buffer_cache_size=8
@@ -44,7 +48,7 @@ ro.hwui.texture_cache_flushrate=0.4
 ro.hwui.text_small_cache_width=1024
 ro.hwui.text_small_cache_height=1024
 ro.hwui.text_large_cache_width=2048
-ro.hwui.text_large_cache_height=1024
+ro.hwui.text_large_cache_height=2048
 
 # ZRAM writeback
 ro.zram.mark_idle_delay_mins=60
