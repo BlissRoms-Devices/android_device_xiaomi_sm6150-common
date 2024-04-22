@@ -58,6 +58,7 @@ ro.zram.periodic_wb_delay_hours=24
 # LMKD
 ro.config.low_ram=false
 ro.lmk.log_stats=true
+ro.lmk.use_minfree_levels=true
 
 # Disable Skia tracing by default
 debug.hwui.skia_atrace_enabled=false
