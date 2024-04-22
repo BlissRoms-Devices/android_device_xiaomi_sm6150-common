@@ -496,7 +496,7 @@ PRODUCT_COPY_FILES += \
 
 # USB
 PRODUCT_PACKAGES += \
-    android.hardware.usb@1.0-service
+    android.hardware.usb@1.3-service.dual_role_usb
 
 PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
