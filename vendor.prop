@@ -169,13 +169,7 @@ ro.frp.pst=/dev/block/bootdevice/by-name/frp
 ro.gfx.driver.1=com.qualcomm.qti.gpudrivers.sm6150.api30
 
 #Graphics
-debug.hwui.use_hint_manager=true
-debug.hwui.target_cpu_time_percent=30
 ro.config.avoid_gfx_accel=true
-
-HWUI
-debug.hwui.use_hint_manager=true
-debug.hwui.target_cpu_time_percent=30
 
 # IMS
 persist.dbg.volte_avail_ovr=1
