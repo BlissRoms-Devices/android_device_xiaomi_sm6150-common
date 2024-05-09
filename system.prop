@@ -1,6 +1,9 @@
 # Bluetooth
 vendor.bluetooth.soc=cherokee
 
+# Blur
+ro.surface_flinger.supports_background_blur=0
+
 # Display
 debug.egl.hw=1
 debug.sf.hw=1
