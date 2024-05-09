@@ -11,6 +11,9 @@ debug.hwui.renderer=skiagl
 # Disable Skia tracing by default
 debug.hwui.skia_atrace_enabled=false
 
+# Phantom process monitoring
+sys.fflag.override.settings_enable_monitor_phantom_procs=false
+
 # System Server
 arm64.memtag.process.system_server=off
 
