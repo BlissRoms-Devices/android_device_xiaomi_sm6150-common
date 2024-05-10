@@ -66,4 +66,7 @@
     <integer name="config_wifi_framework_wifi_score_bad_rssi_threshold_5GHz" translatable="false" >-90</integer>
     <integer name="config_wifi_framework_wifi_score_bad_rssi_threshold_24GHz" translatable="false" >-83</integer>
 
+    <!-- Indicate the driver support NL80211_REG_CHANGED event. -->
+    <bool name="config_wifiDriverSupportedNl80211RegChangedEvent" translatable="false">true</bool>
+
 </resources>
