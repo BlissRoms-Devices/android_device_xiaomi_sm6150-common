@@ -5,6 +5,9 @@ audio.sys.offload.pstimeout.secs=3
 # App
 ro.launcher.blur.appLaunch=0
 
+# FUSE passthrough
+persist.sys.fuse.passthrough.enable=true
+
 #Graphics
 debug.hwui.renderer=skiagl
 
