@@ -211,7 +211,7 @@ vendor.usb.diag.func.name=diag
 vendor.usb.use_ffs_mtp=0
 
 #SOC
-ro.soc.manufacturer=Qualcomm
+ro.soc.manufacturer=QTI
 ro.soc.model=SM6150
 
 # USB
