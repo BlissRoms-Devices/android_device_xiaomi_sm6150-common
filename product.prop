@@ -8,6 +8,9 @@ ro.launcher.blur.appLaunch=0
 #Graphics
 debug.hwui.renderer=skiagl
 
+# IMS
+ro.telephony.block_binder_thread_on_incoming_calls=false
+
 # Disable Skia tracing by default
 debug.hwui.skia_atrace_enabled=false
 
