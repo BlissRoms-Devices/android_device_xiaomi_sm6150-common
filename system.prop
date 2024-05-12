@@ -7,6 +7,7 @@ ro.surface_flinger.supports_background_blur=0
 # Display
 debug.egl.hw=1
 debug.sf.hw=1
+debug.sf.recomputecrop=0
 dev.pm.dyn_samplingrate=1
 persist.hwc.enable_vds=1
 debug.force_no_blanking=true
