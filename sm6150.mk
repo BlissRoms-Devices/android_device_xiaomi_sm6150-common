@@ -244,12 +244,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/uinput-goodix.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/uinput-goodix.kl \
     $(LOCAL_PATH)/keylayout/sm6150-idp-snd-card_Button_Jack.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/sm6150-idp-snd-card_Button_Jack.kl
 
-# LMK tuning
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.lmk.filecache_min_kb=153600 \
-    ro.lmk.kill_timeout_ms=50 \
-    ro.lmk.stall_limit_critical=40
-
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.lights-service.xiaomi_sm6150
