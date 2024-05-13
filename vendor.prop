@@ -167,9 +167,6 @@ vendor.gralloc.enable_fb_ubwc=1
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
-# GPU
-ro.gfx.driver.1=com.qualcomm.qti.gpudrivers.sm6150.api30
-
 #Graphics
 ro.config.avoid_gfx_accel=true
 
