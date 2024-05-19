@@ -154,6 +154,9 @@ on boot
     setprop vendor.usb.qdss.inst.name "qdss"
     setprop sys.usb.configfs 1
 
+    # Disable serial console
+    setprop init.svc.console stopped
+
 on property:sys.boot_completed=1
     # Set allocstall_threshold to 0
     # Set swappiness to 100
