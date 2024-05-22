@@ -8,6 +8,7 @@ ro.surface_flinger.supports_background_blur=0
 log.tag.CHIUSECASE=ERROR
 
 # Display
+debug.sf.enable_hwc_vds=1
 debug.egl.hw=1
 debug.sf.hw=1
 debug.sf.recomputecrop=0
