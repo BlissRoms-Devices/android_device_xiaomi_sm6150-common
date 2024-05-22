@@ -562,8 +562,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     XiaomiParts
 
-# PRODUCT_BOOT_JARS += \
-#     WfdCommon
+PRODUCT_BOOT_JARS += \
+    WfdCommon
 
 # Wlan
 PRODUCT_CFI_INCLUDE_PATHS += \
