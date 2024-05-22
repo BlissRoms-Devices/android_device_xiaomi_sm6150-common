@@ -15,6 +15,9 @@ dev.pm.dyn_samplingrate=1
 persist.hwc.enable_vds=1
 debug.force_no_blanking=true
 
+# disable vsync for cpu render apps
+debug.cpurend.vsync=false
+
 # Netflix custom property
 ro.netflix.bsp_rev=Q6150-17263-1
 
