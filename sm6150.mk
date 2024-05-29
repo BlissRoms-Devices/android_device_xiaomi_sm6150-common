@@ -556,6 +556,7 @@ PRODUCT_PACKAGES += \
     libdisplayconfig.qti \
     libnl \
     libqdMetaData \
+    libqdMetaData.system \
     libwfdaac_vendor
 
 # Device-specific settings
