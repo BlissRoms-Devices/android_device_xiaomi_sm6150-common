@@ -69,6 +69,7 @@ ro.lmk.log_stats=true
 ro.lmk.use_minfree_levels=true
 ro.lmk.thrashing_limit=200
 ro.lmk.psi_partial_stall_ms=120
+ro.lmk.use_psi=true
 
 # Disable Skia tracing by default
 debug.hwui.skia_atrace_enabled=false
