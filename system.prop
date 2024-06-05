@@ -39,6 +39,9 @@ telephony.lteOnCdmaDevice=1
 # Recovery
 ro.recovery.ui.margin_height=48
 
+# Render ahead 
+ro.hwui.render_ahead=1
+
 # WiFi
 wifi.interface=wlan0
 
