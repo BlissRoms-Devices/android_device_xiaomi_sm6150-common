@@ -551,20 +551,11 @@ PRODUCT_COPY_FILES += \
 
 # WiFi Display
 PRODUCT_PACKAGES += \
-    android.media.audio.common.types-V2-cpp \
-    libavservices_minijail_32 \
-    libdisplayconfig.qti \
-    libnl \
-    libqdMetaData \
-    libqdMetaData.system \
-    libwfdaac_vendor
+    android.media.audio.common.types-V2-cpp
 
 # Device-specific settings
 PRODUCT_PACKAGES += \
     XiaomiParts
-
-PRODUCT_BOOT_JARS += \
-    WfdCommon
 
 # Wlan
 PRODUCT_CFI_INCLUDE_PATHS += \
