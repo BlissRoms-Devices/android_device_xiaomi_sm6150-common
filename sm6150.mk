@@ -42,9 +42,12 @@ PRODUCT_PACKAGES += \
     audio.bluetooth.default \
     audio.usb.default \
     audio.r_submix.default \
+    libaudioroute.vendor \
+    libprocessgroup.vendor \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
+    libstagefright_softomx_plugin.vendor \
     libvolumelistener \
     libtinycompress
 
@@ -103,11 +106,15 @@ PRODUCT_PACKAGES += \
     libgui_vendor \
     libdng_sdk.vendor \
     libcamera2ndk_vendor \
-		libxml2 \
+    libxml2 \
     android.frameworks.sensorservice@1.0 \
     android.frameworks.sensorservice@1.0.vendor \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service_64
+
+PRODUCT_PACKAGES += \
+    libcamera_metadata.vendor \
+    liblz4.vendor
 
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.device@1.0.vendor
@@ -159,11 +166,13 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@4.0-impl-qti-display \
     android.hardware.memtrack@1.0-impl \
     android.hardware.memtrack@1.0-service \
-		libvulkan \
-		libsdmcore \
-		libsdmutils \
-		libstagefright_enc_common \
-		libtinyxml \
+    libion \
+    libion.vendor \
+    libvulkan \
+    libsdmcore \
+    libsdmutils \
+    libstagefright_enc_common \
+    libtinyxml \
     vendor.qti.hardware.display.allocator-service
 
 PRODUCT_PACKAGES += \
@@ -360,6 +369,9 @@ PRODUCT_PACKAGES += \
     android.hardware.power-service.xiaomi-libperfmgr \
 		android.hardware.power.stats@1.0-service.mock
 
+PRODUCT_PACKAGES += \
+    libssl.vendor
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
 
@@ -389,15 +401,23 @@ PRODUCT_PACKAGES += \
 
 # RIL
 PRODUCT_PACKAGES += \
+    libutilscallstack.vendor:64 \
+    libnetutils.vendor:64 \
     libjson \
     libril \
     librilutils \
     librmnetctl
 
+PRODUCT_PACKAGES += \
+    libcurl.vendor:64 \
+    libjsoncpp.vendor:64 \
+    libsqlite.vendor:64 \
+    libsysutils.vendor:64
+
 # Radio
 PRODUCT_PACKAGES += \
-		android.hardware.radio.deprecated@1.0 \
-		android.hardware.radio.deprecated@1.0.vendor \
+    android.hardware.radio.deprecated@1.0 \
+    android.hardware.radio.deprecated@1.0.vendor \
     android.hardware.radio@1.5 \
     android.hardware.radio@1.5.vendor \
     android.hardware.radio.config@1.2 \
@@ -559,6 +579,10 @@ PRODUCT_PACKAGES += \
     libqdMetaData \
     libqdMetaData.system \
     libwfdaac_vendor
+
+PRODUCT_PACKAGES += \
+    libexif.vendor \
+    libpng.vendor:32
 
 # Device-specific settings
 PRODUCT_PACKAGES += \
