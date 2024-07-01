@@ -11,6 +11,7 @@ vendor.camera.*                       u:object_r:vendor_camera_prop:s0
 vendor.camera.aux.packageblacklist    u:object_r:vendor_camera_prop:s0
 vendor.camera.boot_complete           u:object_r:vendor_camera_prop:s0
 vendor.camera.sensor.*                u:object_r:vendor_camera_prop:s0
+vendor.camera.sensor.logsystem        u:object_r:vendor_camera_prop:s0
 vendor.camera.sensor.rearMain.fuseID  u:object_r:vendor_camera_prop:s0
 vendor.camera.sensor.frontAux.fuseID  u:object_r:vendor_camera_prop:s0
 vendor.camera.sensor.frontMain.fuseID u:object_r:vendor_camera_prop:s0
