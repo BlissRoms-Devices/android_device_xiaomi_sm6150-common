@@ -6,6 +6,7 @@ persist.vednor.camera.arcsoftlog      u:object_r:vendor_camera_prop:s0
 persist.vendor.camera.mi.module.      u:object_r:vendor_camera_prop:s0
 persist.camera.visidonsr.debuglevel   u:object_r:vendor_camera_prop:s0
 persist.camera.sr.debuglevel          u:object_r:vendor_camera_prop:s0
+ro.vendor.audio.us.proximity          u:object_r:vendor_camera_prop:s0
 vendor.camera.*                       u:object_r:vendor_camera_prop:s0
 vendor.camera.aux.packageblacklist    u:object_r:vendor_camera_prop:s0
 vendor.camera.boot_complete           u:object_r:vendor_camera_prop:s0
