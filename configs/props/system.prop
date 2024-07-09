@@ -75,4 +75,4 @@ ro.lmk.psi_partial_stall_ms=120
 ro.lmk.use_psi=true
 
 # Disable Skia tracing by default
-debug.hwui.skia_atrace_enabled=false
+debug.hwui.skia_tracing_enabled=false
