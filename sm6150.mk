@@ -10,9 +10,6 @@ $(call inherit-product, vendor/xiaomi/sm6150-common/sm6150-common-vendor.mk)
 # Camera
 $(call inherit-product-if-exists, vendor/miuicamera/config.mk)
 
-# Include dalvik vm configs
-$(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
-
 # Add common definitions for Qualcomm
 $(call inherit-product, hardware/qcom-caf/common/common.mk)
 
