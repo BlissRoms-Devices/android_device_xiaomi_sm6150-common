@@ -8,12 +8,11 @@ ro.surface_flinger.supports_background_blur=0
 log.tag.CHIUSECASE=ERROR
 
 # Display
-debug.sf.enable_hwc_vds=1
-debug.egl.hw=1
-debug.sf.hw=1
+debug.sf.enable_hwc_vds=0
+debug.egl.hw=0
+debug.sf.hw=0
 debug.sf.recomputecrop=0
 dev.pm.dyn_samplingrate=1
-persist.hwc.enable_vds=1
 debug.force_no_blanking=true
 
 # disable vsync for cpu render apps
