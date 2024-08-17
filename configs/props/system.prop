@@ -13,7 +13,6 @@ debug.egl.hw=0
 debug.sf.hw=0
 debug.sf.recomputecrop=0
 dev.pm.dyn_samplingrate=1
-debug.force_no_blanking=true
 
 # disable vsync for cpu render apps
 debug.cpurend.vsync=false
