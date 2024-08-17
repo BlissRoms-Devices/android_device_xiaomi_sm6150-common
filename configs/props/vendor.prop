@@ -163,6 +163,10 @@ vendor.display.enable_optimize_refresh=1
 vendor.gralloc.disable_ubwc=0
 vendor.gralloc.enable_fb_ubwc=1
 
+# EGL - Blobcache configuration
+ro.egl.blobcache.multifile=true
+ro.egl.blobcache.multifile_limit=33554432
+
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
