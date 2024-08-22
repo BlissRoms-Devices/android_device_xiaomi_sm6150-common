@@ -133,7 +133,7 @@ PRODUCT_PACKAGES += \
 
 # Consumer IR
 PRODUCT_PACKAGES += \
-		android.hardware.ir-service.example
+    android.hardware.ir-service.example
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.consumerir.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.consumerir.xml
@@ -184,17 +184,17 @@ PRODUCT_PACKAGES += \
     disable_configstore
 
 PRODUCT_COPY_FILES += \
-		frameworks/native/data/etc/android.hardware.opengles.aep.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.opengles.aep.xml \
-		frameworks/native/data/etc/android.hardware.touchscreen.multitouch.jazzhand.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.xml \
-		frameworks/native/data/etc/android.hardware.vulkan.compute-0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.compute-0.xml \
-		frameworks/native/data/etc/android.hardware.vulkan.level-1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.level-1.xml \
-		frameworks/native/data/etc/android.hardware.vulkan.version-1_1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.version-1_1.xml
+    frameworks/native/data/etc/android.hardware.opengles.aep.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.opengles.aep.xml \
+    frameworks/native/data/etc/android.hardware.touchscreen.multitouch.jazzhand.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.xml \
+    frameworks/native/data/etc/android.hardware.vulkan.compute-0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.compute-0.xml \
+    frameworks/native/data/etc/android.hardware.vulkan.level-1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.level-1.xml \
+    frameworks/native/data/etc/android.hardware.vulkan.version-1_1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.version-1_1.xml
 
 # DRM
 PRODUCT_PACKAGES += \
-		android.hardware.drm@1.3 \
-		android.hardware.drm@1.3.vendor \
-		android.hardware.drm-service.clearkey
+    android.hardware.drm@1.3 \
+    android.hardware.drm@1.3.vendor \
+    android.hardware.drm-service.clearkey
 
 # fastbootd
 ifeq ($(PRODUCT_USE_DYNAMIC_PARTITIONS),true)
@@ -237,7 +237,6 @@ PRODUCT_PACKAGES += \
     android.hardware.health-service.qti \
     android.hardware.health-service.qti_recovery
 
-
 # IRQ balance
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf
@@ -270,26 +269,26 @@ PRODUCT_PACKAGES += \
 # Media
 PRODUCT_PACKAGES += \
     android.hardware.media.c2@1.0.vendor \
-		libavservices_minijail \
-		libavservices_minijail.vendor \
-		libhwbinder.vendor \
-		libminijail \
-		libc2dcolorconvert \
-		libplatformconfig \
-        libmm-omxcore \
-        libOmxAacEnc \
-        libOmxAmrEnc \
-        libOmxCore \
-        libOmxEvrcEnc \
-        libOmxG711Enc \
-        libOmxQcelp13Enc \
-		libmedia_codeclist \
-        libOmxVenc \
-        libOmxVidcCommon \
-		libgui \
-		libgui.vendor \
-        libstagefrighthw \
-		libstagefright_omx.vendor
+    libavservices_minijail \
+    libavservices_minijail.vendor \
+    libhwbinder.vendor \
+    libminijail \
+    libc2dcolorconvert \
+    libplatformconfig \
+    libmm-omxcore \
+    libOmxAacEnc \
+    libOmxAmrEnc \
+    libOmxCore \
+    libOmxEvrcEnc \
+    libOmxG711Enc \
+    libOmxQcelp13Enc \
+    libmedia_codeclist \
+    libOmxVenc \
+    libOmxVidcCommon \
+    libgui \
+    libgui.vendor \
+    libstagefrighthw \
+    libstagefright_omx.vendor
 
 PRODUCT_PACKAGES += \
     libcodec2_vndk.vendor \
@@ -325,7 +324,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/media/seccomp_policy/mediacodec-seccomp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
-		$(LOCAL_PATH)/media/seccomp_policy/mediaextractor-seccomp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaextractor-seccomp.policy \
+    $(LOCAL_PATH)/media/seccomp_policy/mediaextractor-seccomp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaextractor-seccomp.policy \
     hardware/qcom-caf/sm8150/media/conf_files/sm6150/system_properties.xml:$(TARGET_COPY_OUT_VENDOR)/etc/system_properties.xml
 
 # Network
@@ -340,8 +339,8 @@ PRODUCT_PACKAGES += \
 
 # Neural Networks
 PRODUCT_PACKAGES += \
-		android.hardware.neuralnetworks@1.3 \
-		android.hardware.neuralnetworks@1.3.vendor \
+    android.hardware.neuralnetworks@1.3 \
+    android.hardware.neuralnetworks@1.3.vendor \
     android.hardware.neuralnetworks@1.2 \
     android.hardware.neuralnetworks@1.2.vendor
 
@@ -358,10 +357,10 @@ PRODUCT_PACKAGES += \
 
 # Power
 PRODUCT_PACKAGES += \
-		android.hardware.power@1.2 \
-		android.hardware.power@1.2.vendor \
+    android.hardware.power@1.2 \
+    android.hardware.power@1.2.vendor \
     android.hardware.power-service.xiaomi-libperfmgr \
-		android.hardware.power.stats@1.0-service.mock
+    android.hardware.power.stats@1.0-service.mock
 
 PRODUCT_PACKAGES += \
     libssl.vendor
@@ -447,7 +446,6 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/xiaomi \
     hardware/qcom-caf/wlan
 
-
 #Secure element
 PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.2 \
@@ -472,8 +470,8 @@ PRODUCT_PACKAGES += \
     ims_ext_common.xml \
     qti-telephony-hidl-wrapper \
     qti_telephony_hidl_wrapper.xml \
-		qti-telephony-hidl-wrapper-prd \
-		qti_telephony_hidl_wrapper_prd.xml \
+    qti-telephony-hidl-wrapper-prd \
+    qti_telephony_hidl_wrapper_prd.xml \
     qti-telephony-utils \
     qti_telephony_utils.xml \
     telephony-ext
