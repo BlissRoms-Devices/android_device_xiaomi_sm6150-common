@@ -40,6 +40,9 @@ on early-init
     rm /data/resource-cache
     rm /data/system/package_cache
 
+    # Wifi firmware reload path
+    chown wifi wifi /sys/module/wlan/parameters/fwpath
+
 on init
     # Create cgroup mount point for memory
     mkdir /sys/fs/cgroup/memory/bg 0750 root system
