@@ -419,7 +419,8 @@ PRODUCT_PACKAGES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
-    libsensorndkbridge
+    libsensorndkbridge \
+    libpower.vendor
 
 ifeq ($(TARGET_ENABLE_MULTI_SENSOR),true)
 PRODUCT_PACKAGES += \
