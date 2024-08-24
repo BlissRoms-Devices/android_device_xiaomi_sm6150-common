@@ -219,7 +219,7 @@ on property:init.svc.vendor.charger=running
     start vendor.qcom-post-boot
     start vendor.power_off_alarm
 
-service vendor.thermal-engine /vendor/bin/thermal-engine
+service vendor.thermal-engine /vendor/bin/thermal-engine -c /vendor/etc/thermal-engine.conf
     class main
     user root
     socket thermal-send-client stream 0666 system system
