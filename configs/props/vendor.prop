@@ -213,9 +213,6 @@ persist.vendor.radio.enable_temp_dds=true
 # SPU
 vendor.gatekeeper.disable_spu=true
 
-# Thermal
-vendor.sys.thermal.data.path=/data/vendor/thermal/
-
 # USB
 vendor.usb.diag.func.name=diag
 vendor.usb.dpl.inst.name=dpl
