@@ -105,7 +105,7 @@ on init
 
 on property:vendor.post_boot.parsed=1
     # IRQ Tuning
-    # IRQ 70: msm_drm0
-    # IRQ 222: kgsl_3d0_irq
-    write /proc/irq/70/smp_affinity_list 2
-    write /proc/irq/222/smp_affinity_list 1
+    # IRQ 70: msm_drm0 -> CPU 7
+    # IRQ 222: kgsl_3d0_irq -> CPU 6
+    write /proc/irq/70/smp_affinity_list 7
+    write /proc/irq/222/smp_affinity_list 6
