@@ -160,7 +160,7 @@ on boot
     setprop sys.usb.configfs 1
 
     # Disable serial console
-    setprop init.svc.console stopped
+    stop console
 
 on property:sys.boot_completed=1
     # Set allocstall_threshold to 0
