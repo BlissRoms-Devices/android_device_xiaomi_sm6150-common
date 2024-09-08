@@ -41,6 +41,9 @@ ro.recovery.ui.margin_height=48
 # Render ahead 
 ro.hwui.render_ahead=1
 
+# Sensor
+persist.vendor.sensors.enable.mag_filter=true
+
 # SurfaceFlinger
 debug.sf.layer_caching_active_layer_timeout_ms=1000
 debug.sf.enable_advanced_sf_phase_offset=1
