@@ -183,9 +183,6 @@ endif
 TARGET_BOARD_PLATFORM := sm6150
 BOARD_USES_QCOM_HARDWARE := true
 
-# Power
-TARGET_POWERHAL_MODE_EXT := $(COMMON_PATH)/power/power-mode.cpp
-
 # Properties
 TARGET_ODM_PROP += $(COMMON_PATH)/configs/props/odm.prop
 TARGET_SYSTEM_PROP += $(COMMON_PATH)/configs/props/system.prop
@@ -221,6 +218,7 @@ VENDOR_SECURITY_PATCH := 2023-10-01
 # Sepolicy
 TARGET_SEPOLICY_DIR := msmsteppe
 include device/qcom/sepolicy_vndr/SEPolicy.mk
+include device/lineage/sepolicy/libperfmgr/sepolicy.mk
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/private
 SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/public
 BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
