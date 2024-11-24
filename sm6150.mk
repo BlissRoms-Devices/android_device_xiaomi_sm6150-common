@@ -417,17 +417,11 @@ PRODUCT_PACKAGES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
+    android.hardware.sensors-service.xiaomi-multihal
+
+PRODUCT_PACKAGES += \
     libsensorndkbridge \
     libpower.vendor
-
-ifeq ($(TARGET_ENABLE_MULTI_SENSOR),true)
-PRODUCT_PACKAGES += \
-    android.hardware.sensors@2.1-service.multihal
-else
-PRODUCT_PACKAGES += \
-    android.hardware.sensors@1.0-impl \
-    android.hardware.sensors@1.0-service
-endif
 
 # Sensors configs
 PRODUCT_COPY_FILES += \
