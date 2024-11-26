@@ -513,12 +513,12 @@
         </interface>
     </hal>
     <hal format="hidl" optional="true">
-    <name>android.hardware.media.c2</name>
-    <version>1.2</version>
-    <interface>
-        <name>IComponentStore</name>
-        <instance>software</instance>
-    </interface>
+    	<name>android.hardware.media.c2</name>
+    	<version>1.2</version>
+    	<interface>
+            <name>IComponentStore</name>
+            <instance>software</instance>
+    	</interface>
     </hal>
     <hal format="hidl" optional="true">
         <name>vendor.qti.hardware.data.iwlan</name>
@@ -562,7 +562,7 @@
     </hal>
     <hal format="aidl" optional="true">
         <name>android.hardware.health</name>
-        <version>1</version>
+        <version>3</version>
         <interface>
             <name>IHealth</name>
             <instance>default</instance>
@@ -585,10 +585,34 @@
     </hal>
     <hal format="aidl" optional="true">
         <name>android.hardware.power</name>
-        <version>2</version>
+        <version>4</version>
         <interface>
             <name>IPower</name>
             <instance>default</instance>
         </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>android.hardware.biometrics.fingerprint</name>
+        <version>2.0-3</version>
+        <interface>
+            <name>IBiometricsFingerprint</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl" optional="true">
+    	<name>android.hardware.sensors</name>
+    	<version>2</version>
+    	<interface>
+            <name>ISensors</name>
+            <instance>default</instance>
+    	</interface>
+    </hal>
+    <hal format="aidl" optional="true">
+    	<name>android.hardware.memtrack</name>
+    	<version>1</version>
+    	<interface>
+            <name>IMemtrack</name>
+            <instance>default</instance>
+    	</interface>
     </hal>
 </compatibility-matrix>
