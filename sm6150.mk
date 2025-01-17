@@ -163,9 +163,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.allocator-service
 
 PRODUCT_PACKAGES += \
-    gralloc.default \
-    gralloc.sm6150 \
-    hwcomposer.sm6150
+    gralloc.qcom \
+    hwcomposer.qcom
 
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.mapper@1.0.vendor \
