@@ -591,14 +591,6 @@
             <instance>default</instance>
         </interface>
     </hal>
-    <hal format="hidl" optional="true">
-        <name>android.hardware.biometrics.fingerprint</name>
-        <version>2.0-3</version>
-        <interface>
-            <name>IBiometricsFingerprint</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
     <hal format="aidl" optional="true">
     	<name>android.hardware.sensors</name>
     	<version>2</version>
