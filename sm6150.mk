@@ -527,14 +527,7 @@ PRODUCT_COPY_FILES += \
 
 # WiFi Display
 PRODUCT_PACKAGES += \
-    android.media.audio.common.types-V2-cpp \
-    libavservices_minijail_32 \
-    libdisplayconfig.qti \
-    libdisplayconfig.system.qti \
-    libnl \
-    libqdMetaData \
-    libqdMetaData.system \
-    libwfdaac_vendor
+    android.media.audio.common.types-V2-cpp
 
 PRODUCT_PACKAGES += \
     libexif.vendor \
