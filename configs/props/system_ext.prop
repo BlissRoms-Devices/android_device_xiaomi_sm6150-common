@@ -34,3 +34,6 @@ media.stagefright.thumbnail.prefer_hw_codecs=true
 
 #Graphics
 ro.config.avoid_gfx_accel=true
+
+# Perf
+vendor.perf.framepacing.enable=1
