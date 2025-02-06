@@ -1,3 +1,7 @@
+# ART    
+dalvik.vm.minidebuginfo=false
+dalvik.vm.dex2oat-minidebuginfo=false
+
 # Audio
 use.voice.path.for.pcm.voip=true
 
