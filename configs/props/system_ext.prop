@@ -32,5 +32,5 @@ media.stagefright.enable-player=true
 media.stagefright.enable-fma2dp=true
 media.stagefright.thumbnail.prefer_hw_codecs=true
 
-#Graphics
-ro.config.avoid_gfx_accel=true
+# Graphics
+ro.config.avoid_gfx_accel=false
