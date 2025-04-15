@@ -4,13 +4,13 @@
 vendor/bin/adsprpcd|5e246a6f5d2dca27e29b233a17e4673532191b95
 vendor/etc/init/vendor.qti.adsprpc-sscrpc-service.rc|77f5aaf6d773ee545e39bc5fdc99c65434c05379
 vendor/lib/libadsp_default_listener.so|49d7644708419ea077ffd9d00901ebf6cdd4377c
-vendor/lib/libadsprpc.so|eae169c0fd03286d49419e521949b1f57fc2e38b
-vendor/lib/libmdsprpc.so|8693fccb16c50b26c27cb304d571596526995fed
-vendor/lib/libsdsprpc.so|bb87c1abe6d37b342e266d865267d68acba9a43c
+vendor/lib/libadsprpc.so|6bd323ed01101420b3118093139678b15e5326fd
+vendor/lib/libmdsprpc.so|8dd94d4ac3e21c991285a9e8fbadfeead431ae64
+vendor/lib/libsdsprpc.so|3b576d453dbef7d83b0994bd11bf5e4829578a91
 vendor/lib64/libadsp_default_listener.so|3ebcf635d6cdc447b8ecd40ea76bda39bf82c308
-vendor/lib64/libadsprpc.so|e031fbefb26612616a00fdbf31eb4a06a91e2b08
-vendor/lib64/libmdsprpc.so|a460ba732386b5ac2a2f2240a24fe8cc02c13f33
-vendor/lib64/libsdsprpc.so|b1d78f6d96d912957e99ecf49ff2da73ecd71432
+vendor/lib64/libadsprpc.so|af332b1c122f175d0410a22a0854caed9f45d288
+vendor/lib64/libmdsprpc.so|759ae75b65bbf1fe43bcf7fd2f759f78fdb56cac
+vendor/lib64/libsdsprpc.so|a55eae4fa362ae1767438bfde0820f2c3a2b6208
 
 # ADSP modules
 vendor/lib/rfsa/adsp/libapps_mem_heap.so
@@ -75,10 +75,10 @@ vendor/lib/btaudio_offload_if.so
 # CDSP
 vendor/bin/cdsprpcd|ea126ed2f1b11622547239f331b8013320c59ad2
 vendor/etc/init/vendor.qti.cdsprpc-service.rc|36772b70216796e8ef19376d9c6a81ee9ffff549
-vendor/lib/libcdsprpc.so|723e75558cf307eae1c3a0cda94da0944644a030
+vendor/lib/libcdsprpc.so|177bb825f73599142cf6b3e4035762ac36d8017e
 vendor/lib/libcdsp_default_listener.so|6a3f97faf26da3d01f7895d37c09c8bc62030e0a
 vendor/lib/libsysmon_cdsp_skel.so|b0dd56ca83493e68dc7610d44045849bb3bd8c38
-vendor/lib64/libcdsprpc.so|9f1948f776cbd9a10762e8d6740982adbeb102ee
+vendor/lib64/libcdsprpc.so|e30615ea48a5560695b0a97bb5b845e5083fe05a
 vendor/lib64/libcdsp_default_listener.so|81e5f4737bfb7e2f0a906183b2a8357a5053ee5c
 vendor/lib64/libsysmon_cdsp_skel.so|8a951e039071107317e0e7541ff4df7ad35d87ad
 
@@ -186,7 +186,7 @@ vendor/lib64/vendor.display.color@1.5.so
 vendor/lib64/vendor.display.postproc@1.0.so
 
 # DPM from  LA.UM.9.1.r1-12900-SMxxx0.0
-framework/tcmclient.jar
+#framework/tcmclient.jar
 system_ext/bin/dpmd
 system_ext/etc/dpm/dpm.conf
 system_ext/etc/init/dpmd.rc
@@ -222,7 +222,7 @@ vendor/lib64/libqisl.so
 vendor/lib64/librpmb.so
 vendor/lib64/libsecureui.so
 vendor/lib64/libsecureui_svcsock.so
-vendor/lib64/libspl.so
+#vendor/lib64/libspl.so
 vendor/lib64/libssd.so
 vendor/lib64/libtzdrmgenprov.so
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
@@ -328,7 +328,7 @@ vendor/lib64/libloc_socket.so
 vendor/lib64/liblocation_api.so
 vendor/lib64/liblocationservice.so
 vendor/lib64/liblocationservice_glue.so
-vendor/lib64/liblocdiagiface.so
+#vendor/lib64/liblocdiagiface.so
 vendor/lib64/liblowi_client.so
 vendor/lib64/liblowi_wifihal.so
 vendor/lib64/libqcc_file_agent.so
@@ -459,39 +459,39 @@ vendor/bin/hw/vendor.qti.media.c2@1.0-service
 vendor/etc/init/vendor.qti.media.c2@1.0-service.rc
 vendor/etc/seccomp_policy/codec2.vendor.base.policy
 vendor/etc/seccomp_policy/codec2.vendor.ext.policy
-vendor/bin/vppservice|0f77fd06c6438ded5e5704769db6cb1154d96cbe
+vendor/bin/vppservice|ba26483eeedd023485c41c58352251e0b5bf53f6
 vendor/etc/configstore/vpp.configstore.xml|ed961545186c66fd9523f25866c74f2e11ee63d7
 vendor/etc/init/vppservice.rc|24c089e0e413cbb3fa6daaf0af4215870bdf1b8e
-vendor/lib/libAlacSwDec.so|1d074a0415ee358cd13c981e35266cff4c6863ce
+vendor/lib/libAlacSwDec.so|63fe1ae814d804c10d003b4fe484f47e13e752ec
 vendor/lib/libApeSwDec.so|ce425ef9372ed6635e313422b3578f77b90ff526
-vendor/lib/libFlacSwDec.so|01c7a51d93c2fe447e23c1210832b39b171393e3
+vendor/lib/libFlacSwDec.so|6b17d0965c9f8bddab3ffd59e7bb16e92bb68d85
 vendor/lib/libI420colorconvert.so|5c466dbb5fe334445bde46d15563ecba2e439581
 vendor/lib/libqcodec2.so|
 vendor/lib/libmm-color-convertor.so|eaaa57735036791d53706187ebfd3902d6f85ae8
-vendor/lib/libmmosal.so|37febc914b2c706a5df0009cc134e9d80690aec0
-vendor/lib/libvppclient.so|cb2038656aadc542198b0932f13ebdb9c37e35a5
+vendor/lib/libmmosal.so|b5fc0fae23c5f17cdf444cf72986c45187b2f6aa
+vendor/lib/libvppclient.so|00255f0dd1dbb92f7e2c88f0344e923a82a85ebf
 vendor/lib/libvpphvx.so|e5b3bfc86080fb20efd5ad3b47417566eab8319d
 vendor/lib/libvppimmotion.so|0735d0dfb704f36463445521fe2c3d93c2cc225d
-vendor/lib/libvpplibrary.so|612c490abe2ade3caa0594756e1ed0cdfa07874b
-vendor/lib/vendor.qti.hardware.vpp@1.1.so|e84787e0b689d10a30c4ec3ded8858f0b622323d
-vendor/lib/vendor.qti.hardware.vpp@1.2.so|fc3b81e25f5af4292d032138c46e31b98a7b622a
-vendor/lib/vendor.qti.hardware.vpp@1.3.so|535398187d8a935e7e0d152e8fbb3ef034ba6e6f
-vendor/lib64/libAlacSwDec.so|9fbfad65ffca33e1ac480e9cb056467ac75a6d5a
+vendor/lib/libvpplibrary.so|f856ec97d8493857b6a208638521dfc2b6a52411
+vendor/lib/vendor.qti.hardware.vpp@1.1.so|3e0467d0c30bb6cccab12d2e67dacc5ea852b3df
+vendor/lib/vendor.qti.hardware.vpp@1.2.so|d1226cfbeee864b7cac52bcee37fdf4524892fd6
+vendor/lib/vendor.qti.hardware.vpp@1.3.so|6ff4979c9632ce9f244aeba7a0804332328f3fa9
+vendor/lib64/libAlacSwDec.so|31a98db8820d2a6975d31e29e8a2f459a5cc0be3
 vendor/lib64/libqcodec2.so|
 vendor/lib64/libApeSwDec.so|76d3cc02ca1c3cdc3c71e57dc6e53027d2bf3d37
-vendor/lib64/libFlacSwDec.so|002aa39927e75568efb81c7ae3a044c694babfc3
+vendor/lib64/libFlacSwDec.so|c16096dee817ba98a5a7b79ae358ae0db27fe237
 vendor/lib64/libI420colorconvert.so|829dacf78c4bf6700986d2d5d2013d055b342177
 vendor/lib64/libmm-color-convertor.so|aa6e7e6b3dd182c191086e07c0ad9fb477cf4f20
-vendor/lib64/libmmosal.so|dc6b82fa8d1bd1e7ee0c9dba2ec45b6b032efff0
-vendor/lib64/libvppclient.so|901213457c854a48714a98d3c76adab9760a03e6
+vendor/lib64/libmmosal.so|595faff0767dc2bd0a344a98ab65a239bed14826
+vendor/lib64/libvppclient.so|ccf350aa1db85a73bced4ddafcd07a670daff6dd
 vendor/lib64/libvpphvx.so|d92a352a9990c77b5724784e8c827637b850d53e
 vendor/lib64/libvppimmotion.so|bcc574b7e87a372436a667f333e42e884c944483
-vendor/lib64/libvpplibrary.so|5a90004fe6852db15dc8d38b8e3c361dc16f2bba
+vendor/lib64/libvpplibrary.so|812247296302beab75fb3abcc895cbd05b52f16f
 vendor/lib64/libwa_dof.so
 vendor/lib64/libwa_refocus.so
-vendor/lib64/vendor.qti.hardware.vpp@1.1.so|d47fd7845c02aec702ab96569b90eb6bff2cee5c
-vendor/lib64/vendor.qti.hardware.vpp@1.2.so|13714cdc3a7a5aaa67e641034cb92e9fced28960
-vendor/lib64/vendor.qti.hardware.vpp@1.3.so|aea8a28f53263b5001df295d0a6eab0e8405693b
+vendor/lib64/vendor.qti.hardware.vpp@1.1.so|e336f4a3d0a50ee985639db6a8a70ec9817144ee
+vendor/lib64/vendor.qti.hardware.vpp@1.2.so|7ae61a9c75d4a17f0aad5969ce1a27cd5b0552ae
+vendor/lib64/vendor.qti.hardware.vpp@1.3.so|85a4e2ca843525db5c76486dbee4c5c7a672ee8d
 
 # Native libraries permissions
 vendor/etc/public.libraries.txt
@@ -551,7 +551,7 @@ vendor/lib/libqmiservices.so
 vendor/lib/libqmi.so
 
 # QMI
-etc/sysconfig/qti_whitelist.xml
+#etc/sysconfig/qti_whitelist.xml
 system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
 system_ext/etc/permissions/qcrilhook.xml
 system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml
@@ -643,14 +643,14 @@ vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.soter@1.0.so
 
 # Snapdragon Computer Vision Engine from  LA.UM.9.1.r1-12900-SMxxx0.0
-vendor/lib64/libfastcvdsp_stub.so|de764c199026839848cdc803ed5cb2d8a51ad9b9
-vendor/lib64/libfastcvopt.so|123859ab24627b5cf289e12db694a5d7c65f5558
-vendor/lib64/libscveCommon.so|cce405a28a4c45b5e8c4446de271533deca1cd21
-vendor/lib64/libscveCommon_stub.so|1549ed1252e64a9f1ae3c8d51927bff247a537d2
-vendor/lib64/libscveObjectSegmentation.so|6c4e6d4b5bfe458cbf1e3a6a325fbba6b933265a
-vendor/lib64/libscveObjectSegmentation_stub.so|0292cef1811ccca7f40b011fe502920f90ccacb1
-vendor/lib64/libscveObjectTracker.so|abcf8df3e5128bedf263749e3dea62497fffecbf
-vendor/lib64/libscveObjectTracker_stub.so|c92e4e11bdbca1313ba69646fca6782aa78df1fc
+vendor/lib64/libfastcvdsp_stub.so|af78b8104678b87fbe07d679448ae2f4bc5c461e
+vendor/lib64/libfastcvopt.so|3dfc4166e55434dbe982b08be71669d1cc06a4ea
+vendor/lib64/libscveCommon.so|1603e11f268390739f9d0297ab0b8e84886becab
+vendor/lib64/libscveCommon_stub.so|05f190f1accbfb203f45173b08b78ef88dcc6434
+vendor/lib64/libscveObjectSegmentation.so|1598ad3797897eb3331a545c74d937c0ae0aeddf
+vendor/lib64/libscveObjectSegmentation_stub.so|ed93b42b3e45b030ca413cb8e82283363a95dbde
+vendor/lib64/libscveObjectTracker.so|0cf7d3128ae0019d882da5c9d8d9186d549177d1
+vendor/lib64/libscveObjectTracker_stub.so|6f45aa215de07dfeacf811c06af750206bb1cf58
 
 # Thermal
 vendor/bin/mi_thermald
