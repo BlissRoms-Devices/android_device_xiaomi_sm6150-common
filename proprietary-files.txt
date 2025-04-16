@@ -664,5 +664,8 @@ vendor/bin/time_daemon
 vendor/etc/init/init.time_daemon.rc
 vendor/lib64/libtime_genoff.so
 
+# WLAN
+vendor/bin/cnss-daemon
+
 # Xiaomi MAC
 vendor/bin/nv_mac
