@@ -35,9 +35,18 @@ blob_fixups: blob_fixups_user_type = {
         .add_needed('libcrypto_shim.so'),
 }
 
+
+lib_fixups: lib_fixups_user_type = {
+    **lib_fixups,
+    (
+        'com.qualcomm.qti.dpm.api@1.0',
+    ): lib_fixup_vendor_suffix,
+}
+
 module = ExtractUtilsModule(
     'sm6150-common',
     'xiaomi',
+    blob_fixups=blob_fixups,
     lib_fixups=lib_fixups,
     namespace_imports=namespace_imports,
 )
