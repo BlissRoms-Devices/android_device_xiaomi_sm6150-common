@@ -31,6 +31,9 @@ on early-init
     # Start audio adsp rpc daemon at early init stage
     start vendor.audioadsprpcd_audiopd
 
+    # Set ro.boot.hardware.revision property
+    setprop ro.boot.hardware.revision ${ro.boot.hwc}_${ro.boot.hwlevel}_${ro.boot.hwversion}
+
 on init
     wait /dev/block/platform/soc/${ro.boot.bootdevice}
     symlink /dev/block/platform/soc/${ro.boot.bootdevice} /dev/block/bootdevice
