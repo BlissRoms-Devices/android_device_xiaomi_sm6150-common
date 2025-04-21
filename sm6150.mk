@@ -33,6 +33,7 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl \
     android.hardware.audio.effect@6.0-impl \
     android.hardware.audio.service \
+    android.hardware.soundtrigger@2.3-impl \
     audio.bluetooth.default \
     audio.usb.default \
     audio.r_submix.default \
@@ -42,7 +43,8 @@ PRODUCT_PACKAGES += \
     libqcomvisualizer \
     libqcomvoiceprocessing \
     libvolumelistener \
-    libtinycompress
+    libtinycompress \
+    sound_trigger.primary.sm6150
 
 # Audio XML
 ifeq ($(TARGET_ENABLE_AUDIO_ULL),true)
@@ -54,6 +56,7 @@ endif
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
     $(LOCAL_PATH)/audio/audio_io_policy.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_io_policy.conf \
+    $(LOCAL_PATH)/audio/sound_trigger_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_platform_info.xml \
     $(AUDIO_POLICY_CONFIGURATION_FILE):$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml
 
 PRODUCT_COPY_FILES += \
