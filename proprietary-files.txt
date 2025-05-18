@@ -232,7 +232,7 @@ vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
 
 # DRM Widevine
 vendor/bin/hw/android.hardware.drm@1.3-service.widevine
-vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc
+vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc|3f0de2a76d8e4698204920074623c8215901e545
 vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml
 vendor/lib/libcppf.so
 vendor/lib/libminkdescriptor.so
@@ -469,7 +469,7 @@ vendor/lib/liblistensoundmodel2.so
 
 # Media from  LA.UM.9.1.r1-12900-SMxxx0.0
 vendor/bin/hw/vendor.qti.media.c2@1.0-service
-vendor/etc/init/vendor.qti.media.c2@1.0-service.rc
+vendor/etc/init/vendor.qti.media.c2@1.0-service.rc|03588c8be2ed0c97a3c440bc7f227ce80c2ab7ba
 vendor/etc/seccomp_policy/codec2.vendor.base.policy
 vendor/etc/seccomp_policy/codec2.vendor.ext.policy
 vendor/bin/vppservice|ba26483eeedd023485c41c58352251e0b5bf53f6
@@ -511,7 +511,7 @@ vendor/etc/public.libraries.txt
 # Neural Networks
 vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-qti
 vendor/bin/npu_launcher
-vendor/etc/init/android.hardware.neuralnetworks@1.3-service-qti.rc
+vendor/etc/init/android.hardware.neuralnetworks@1.3-service-qti.rc|1f23d052e24973b18f84304651bbbba1fb16c96c
 vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti.xml
 vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti-hta.xml
 vendor/lib64/libnpu.so
