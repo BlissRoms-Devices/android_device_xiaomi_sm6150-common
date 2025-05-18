@@ -188,7 +188,7 @@ vendor/lib64/vendor.display.color@1.5.so
 vendor/lib64/vendor.display.postproc@1.0.so
 
 # DPM from  LA.UM.9.1.r1-12900-SMxxx0.0
-#framework/tcmclient.jar
+system/framework/tcmclient.jar
 system_ext/bin/dpmd
 system_ext/etc/dpm/dpm.conf
 system_ext/etc/init/dpmd.rc
@@ -564,7 +564,7 @@ vendor/lib/libqmiservices.so
 vendor/lib/libqmi.so
 
 # QMI
-#etc/sysconfig/qti_whitelist.xml
+system/etc/sysconfig/qti_whitelist.xml
 system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
 system_ext/etc/permissions/qcrilhook.xml
 system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml
