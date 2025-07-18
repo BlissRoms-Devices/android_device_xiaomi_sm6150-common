@@ -6,6 +6,7 @@ allow init proc_last_kmsg:file {
 };
 
 allow init adsprpcd_file:file mounton;
+allow init firmware_file:file mounton;
 allow init public_adsprpcd_file:file { mounton };
 allow init per_boot_file:file ioctl;
 allow init vfat:dir { search };
