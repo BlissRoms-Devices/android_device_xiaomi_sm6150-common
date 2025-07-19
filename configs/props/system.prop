@@ -77,6 +77,21 @@ persist.vendor.cp.taper_term_mv=6500
 #set vfloat_offset_uv
 persist.vendor.cp.qc3p5_vfloat_offset_uv=110000
 
+# LMKD
+ro.lmk.low=1001
+ro.lmk.medium=0
+ro.lmk.critical=0
+ro.lmk.kill_heaviest_task=true
+ro.lmk.kill_timeout_ms=50
+ro.lmk.swap_free_low_percentage=10
+ro.lmk.thrashing_limit=55
+ro.lmk.thrashing_limit_decay=35
+ro.lmk.swap_util_max=90
+ro.lmk.psi_partial_stall_ms=200
+ro.lmk.psi_complete_stall_ms=700
+ro.lmk.filecache_min_kb=153600
+ro.lmk.stall_limit_critical=40
+
 # LMKD - helios-user-14-14-23-05.00-UG-U05-STD-HEL-04-5-release-keys
 ro.lmk.enable_userspace_lmk=true
 ro.lmk.kill_heaviest_task_dup=true
