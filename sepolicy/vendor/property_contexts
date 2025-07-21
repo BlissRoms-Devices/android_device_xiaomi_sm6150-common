@@ -2,6 +2,7 @@
 persist.vendor.camera                 u:object_r:vendor_camera_prop:s0
 persist.vednor.camera.arcsoftlog      u:object_r:vendor_camera_prop:s0
 persist.vendor.camera.mi.module.      u:object_r:vendor_camera_prop:s0
+persist.camera.aiscene                u:object_r:vendor_camera_prop:s0
 persist.camera.visidonsr.debuglevel   u:object_r:vendor_camera_prop:s0
 persist.camera.sr.debuglevel          u:object_r:vendor_camera_prop:s0
 persist.vendor.low.cutoff             u:object_r:vendor_camera_prop:s0
