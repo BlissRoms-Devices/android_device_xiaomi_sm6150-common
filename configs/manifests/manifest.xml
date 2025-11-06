@@ -49,6 +49,7 @@
     </hal>
     <hal format="hidl">
         <name>android.hardware.sensors</name>
+        <name>android.frameworks.sensorservice</name>
         <transport>hwbinder</transport>
         <fqname>@1.0::ISensors/default</fqname>
         <fqname>@1.0::ISensorManager/default</fqname>
