@@ -104,3 +104,4 @@ ro.lmk.reclaim_scan_threshold=0
 
 # Disable Skia tracing by default
 debug.hwui.skia_tracing_enabled=false
+debug.hwui.skia_use_perfetto_track_events=false
