@@ -66,7 +66,7 @@ debug.sf.early.sf.duration=30000000
 debug.sf.early.app.duration=24000000
 debug.sf.earlyGl.sf.duration=30000000
 debug.sf.earlyGl.app.duration=24000000
-debug.sf.hwc.min.duration=23000000
+debug.sf.hwc.min.duration=8400000
 
 # WiFi
 wifi.interface=wlan0
