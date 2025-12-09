@@ -403,6 +403,9 @@ PRODUCT_PACKAGES += \
     android.hardware.radio.config@1.2 \
     android.hardware.radio.config@1.2.vendor
 
+# Reduce system server verbosity.
+PRODUCT_SYSTEM_SERVER_DEBUG_INFO := false
+
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors-service.xiaomi-multihal \
