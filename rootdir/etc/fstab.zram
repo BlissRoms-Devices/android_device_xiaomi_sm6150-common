@@ -1,5 +1,5 @@
 # Android fstab file.
 
 #<src>                                                  <mnt_point>            <type>  <mnt_flags and options>                              <fs_mgr_flags>
-/dev/block/zram0                                        none                   swap    defaults                                             zramsize=75%,swapprio=10
+/dev/block/zram0                                        none                   swap    defaults                                             zramsize=100%,swapprio=10
 
