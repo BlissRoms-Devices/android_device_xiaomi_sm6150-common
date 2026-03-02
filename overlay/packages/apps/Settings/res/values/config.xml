@@ -50,6 +50,6 @@
     <integer name="config_network_scan_helper_max_search_time_sec">254</integer>
 
     <!-- Bliss Maintainer -->
-    <string name="bliss_maintainer">Rom Bdr. Gharti</string>
+    <string name="bliss_maintainer">Rom Bdr. Gharti|K4LCHAKRA</string>
 </resources>
 
