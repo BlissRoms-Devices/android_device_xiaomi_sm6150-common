@@ -1,1 +1,1 @@
-type devicesettings_app, domain;
+type devicesettings_app, domain, coredomain;
