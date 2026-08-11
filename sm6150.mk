@@ -176,10 +176,8 @@ PRODUCT_PACKAGES += \
     libcrypto_shim.vendor
 
 # fastbootd
-ifeq ($(PRODUCT_USE_DYNAMIC_PARTITIONS),true)
 PRODUCT_PACKAGES += \
     fastbootd
-endif
 
 # Fingerprint
 PRODUCT_PACKAGES += \
