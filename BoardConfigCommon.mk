@@ -77,6 +77,7 @@ BOARD_KERNEL_CMDLINE += lpm_levels.sleep_disabled=1
 BOARD_KERNEL_CMDLINE += service_locator.enable=1
 BOARD_KERNEL_CMDLINE += msm_rtb.filter=0x237
 BOARD_KERNEL_CMDLINE += kpti=off
+BOARD_KERNEL_CMDLINE += kasan=off
 BOARD_KERNEL_CMDLINE += androidboot.fstab_suffix=qcom
 
 BOARD_KERNEL_SEPARATED_DTBO := true
