@@ -185,6 +185,11 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.vulkan.level-1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.level-1.xml \
     frameworks/native/data/etc/android.hardware.vulkan.version-1_1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.version-1_1.xml
 
+# Dex2oat (Compile SystemServer & SystemUI on device with `speed`)
+PRODUCT_SYSTEM_PROPERTIES += \
+    dalvik.vm.systemservercompilerfilter=speed \
+    dalvik.vm.systemuicompilerfilter=speed
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.3 \
