@@ -60,13 +60,12 @@ persist.vendor.sensors.enable.mag_filter=true
 debug.sf.layer_caching_active_layer_timeout_ms=1000
 debug.sf.enable_advanced_sf_phase_offset=1
 debug.sf.use_phase_offsets_as_durations=1
-debug.sf.late.sf.duration=30000000
-debug.sf.late.app.duration=24000000
-debug.sf.early.sf.duration=30000000
-debug.sf.early.app.duration=24000000
-debug.sf.earlyGl.sf.duration=30000000
-debug.sf.earlyGl.app.duration=24000000
-debug.sf.hwc.min.duration=8400000
+debug.sf.early.app.duration=16600000
+debug.sf.early.sf.duration=16600000
+debug.sf.earlyGl.app.duration=16600000
+debug.sf.earlyGl.sf.duration=16600000
+debug.sf.late.app.duration=16600000
+debug.sf.late.sf.duration=10500000
 debug.renderengine.blur_algorithm=kawase2
 
 # WiFi
