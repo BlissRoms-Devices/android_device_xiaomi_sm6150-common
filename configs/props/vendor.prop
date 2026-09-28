@@ -156,10 +156,6 @@ vendor.gralloc.enable_fb_ubwc=1
 ro.egl.blobcache.multifile=true
 ro.egl.blobcache.multifile_limit=33554432
 
-# HWUI
-debug.hwui.use_hint_manager=true
-debug.hwui.target_cpu_time_percent=30
-
 # IMS
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
