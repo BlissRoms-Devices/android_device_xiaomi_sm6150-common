@@ -26,7 +26,7 @@ persist.vendor.radio.report_codec=1
 persist.vendor.radio.vdp_on_ims_cap=1
 
 # System Server
-arm64.memtag.process.system_server=off
+persist.arm64.memtag.system_server=off
 
 # Set the Bluetooth Class of Device
 # Service Field: 0x5A -> 90
