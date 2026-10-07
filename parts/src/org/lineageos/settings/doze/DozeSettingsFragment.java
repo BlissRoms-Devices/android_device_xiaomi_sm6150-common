@@ -141,8 +141,8 @@ public class DozeSettingsFragment extends PreferenceFragment implements OnPrefer
         @Override
         public Dialog onCreateDialog(Bundle savedInstanceState) {
             return new AlertDialog.Builder(getActivity())
-                    .setTitle(R.string.doze_settings_help_title)
-                    .setMessage(R.string.doze_settings_help_text)
+                    .setTitle("Help")
+                    .setMessage("These features use sensor events to launch a doze notification pulse. The chosen sensor is only enabled when the device receives a notification, this helps to reduce battery usage. There is also an option to enable the chosen sensor as soon as the screen turns off, this will cause higher battery usage.")
                     .setNegativeButton(R.string.dialog_ok, (dialog, which) -> dialog.cancel())
                     .create();
         }
